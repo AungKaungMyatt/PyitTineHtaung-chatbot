@@ -1,0 +1,7 @@
+{
+  "passwords": "Use strong, unique passwords with symbols and numbers.",
+  "2fa": "Enable two-factor authentication (2FA) for extra protection.",
+  "phishing": "Avoid clicking suspicious links or downloading unknown attachments.",
+  "software_updates": "Update your devices and software to patch vulnerabilities.",
+  "public_wifi": "Avoid accessing sensitive info over public Wi-Fi without a VPN."
+}
