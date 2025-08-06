@@ -1,4 +1,14 @@
 {
+  "greeting": [
+    "hi", 
+    "hello", 
+    "hey", 
+    "mingalar", 
+    "mingalar par", 
+    "mingalar pr", 
+    "ဟယ်လို", 
+    "မင်္ဂလာပါ"
+  ],
   "password_check": [
     "password",
     "safe",

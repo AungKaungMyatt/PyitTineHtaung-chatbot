@@ -2,6 +2,7 @@ from handlers.rule_engine.password_checker import PasswordChecker
 from handlers.rule_engine.tip_handler import TipHandler
 from handlers.rule_engine.scam_detector import ScamDetector
 from handlers.rule_engine.banking_handler import BankingTipHandler
+from handlers.rule_engine.greeting_handler import GreetingHandler
 #from handlers.intent_handler import detect_intent
 
 class ChatBot:
@@ -11,11 +12,14 @@ class ChatBot:
         self.tip_handler = TipHandler()
         self.scam_detector = ScamDetector()
         self.banking_handler = BankingTipHandler()
+        self.greeting_handler = GreetingHandler()
         # self.ai_responder = LLMResponder()
 
     def get_response(self, user_input: str, intent: str) -> str:
 
-        if intent == "tip":
+        if intent == "greeting":
+            return self.greeting_handler.respond(user_input)
+        elif intent == "tip":
             return self.tip_handler.get_tip(user_input)
         elif intent == "banking_tip":
             return self.banking_handler.get_tip(user_input)
