@@ -1,76 +1,22 @@
 {
   "greeting": [
-    "hi", 
-    "hello", 
-    "hey", 
-    "mingalar", 
-    "mingalar par", 
-    "mingalar pr", 
-    "ဟယ်လို", 
-    "မင်္ဂလာပါ"
+    "hi", "hello", "hey", "good morning", "good evening",
+    "မင်္ဂလာပါ", "မင်္ဂလာနံနက်ခင်း", "ဟယ်လို", "ဟဲလို", "မင်္ဂလာညနေခင်း"
   ],
   "password_check": [
-    "password",
-    "safe",
-    "strong",
-    "secure password",
-    "password advice",
-    "create password",
-    "set password",
-    "password rules",
-    "good password"
-  ],
-  "tip": [
-    "tip",
-    "secure",
-    "safety",
-    "data protection",
-    "account",
-    "banking",
-    "2fa",
-    "transaction",
-    "finance",
-    "online banking",
-    "money"
-  ],
-  "scam_check": [
-    "scam",
-    "fraud",
-    "fake",
-    "phishing",
-    "is this message legit",
-    "is this a scam",
-    "verify email",
-    "is this safe",
-    "check message",
-    "suspicious",
-    "too good to be true",
-    "urgent email",
-    "spam"
+    "password", "strong password", "change password", "forgot password", 
+    "စကားဝှက်", "စကားဝှက်ပြောင်း", "စကားဝှက်မေ့", "လုံခြုံသော စကားဝှက်"
   ],
   "banking_tip": [
-    "bank",
-    "online banking",
-    "mobile banking",
-    "ATM",
-    "banking safety",
-    "transfer",
-    "transaction",
-    "unauthorized",
-    "account hacked",
-    "secure banking",
-    "credit card",
-    "debit card",
-    "financial info",
-    "bank fraud",
-    "ငွေလွှဲ",
-    "ဘဏ်အကောင့်",
-    "ဘဏ်",
-    "ATM လုံခြုံရေး",
-    "ဘဏ်လုပ်ငန်း",
-    "အကောင့်ဖွင့်",
-    "ငွေသွင်း",
-    "ငွေထုတ်",
-    "ဘဏ်လုံခြုံရေး"
+    "bank", "banking", "online banking", "banking safety", "how to keep my bank secure",
+    "ဘဏ်", "ဘဏ်လုပ်ငန်း", "ဘဏ်လုံခြုံမှု", "ဘဏ်အကောင့်", "ဘဏ်အကောင့်ကို ဘယ်လို လုံခြုံအောင် ထိန်းသိမ်းမလဲ"
+  ],
+  "scam_check": [
+    "scam", "phishing", "fraud", "click this link", "lottery message", "is this a scam", "sms scam",
+    "လှည့်စားမှု", "လှည့်စားရေး", "လိမ်လည်မှု", "link", "လင့်ခ်", "ဘယ်လိုလှည့်စားမှုလဲ", "လိမ်လည်ချက်"
+  ],
+  "tip": [
+    "cyber tip", "safety advice", "internet safety", "tips to protect account",
+    "လုံခြုံရေးအကြံပေးချက်", "အကြံပြုချက်", "အကောင့်ကိုဘယ်လိုကာကွယ်မလဲ", "အကြံဉာဏ်"
   ]
 }

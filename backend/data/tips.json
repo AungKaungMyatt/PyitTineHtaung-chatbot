@@ -1,7 +1,18 @@
 {
-  "passwords": "Use strong, unique passwords with symbols and numbers.",
-  "2fa": "Enable two-factor authentication (2FA) for extra protection.",
-  "phishing": "Avoid clicking suspicious links or downloading unknown attachments.",
-  "software_updates": "Update your devices and software to patch vulnerabilities.",
-  "public_wifi": "Avoid accessing sensitive info over public Wi-Fi without a VPN."
+    "phishing": {
+        "en": "Never click suspicious links in emails or messages.",
+        "mm": "အီးမေးလ်များ သို့မဟုတ် မက်ဆေ့ချ်များထဲမှ သံသယရှိသော လင့်များကို မနှိပ်ပါနှင့်။"
+    },
+    "strong password": {
+        "en": "Use a combination of letters, numbers, and symbols for strong passwords.",
+        "mm": "စာလုံးများ၊ နံပါတ်များနှင့် သင်္ကေတများကို တွဲဖက်အသုံးပြုပြီး စကားဝှက်အားကောင်းအောင် ပြုလုပ်ပါ။"
+    },
+    "two_factor_authentication": {
+        "en": "Enable two-factor authentication for added security.",
+        "mm": "လုံခြုံမှုအတွက် နှစ်ဆအတည်ပြုခြင်းကို ဖွင့်ထားပါ။"
+    },
+    "software_updates": {
+        "en": "Keep your devices updated to patch security vulnerabilities.",
+        "mm": "လုံခြုံရေးချို့ယွင်းချက်များကို ပြင်ဆင်ရန်၊ သင်၏စက်များကို အမြဲ Update ပြုလုပ်ပါ။"
+    }
 }

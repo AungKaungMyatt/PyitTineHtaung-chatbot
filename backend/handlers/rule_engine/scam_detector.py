@@ -1,9 +1,24 @@
 class ScamDetector:
     def __init__(self):
-        self.scam_keywords = ["win", "prize", "claim", "click", "urgent", "lottery", "money", "free", "limited offer"]
+        self.scam_keywords = [
+            "win", "prize", "claim", "click", "urgent", "lottery", "money", "free", "limited offer"
+        ]
 
-    def detect(self, message):
+    def detect(self, message: str, language: str = "en") -> str:
+        messages = {
+            "en": {
+                "scam": "This message might be a scam. Be cautious!",
+                "safe": "No common scam phrases found. Be cautious anyway!"
+            },
+            "mm": {
+                "scam": "ဤမက်ဆေ့ချ်သည် လှည့်ဖျက်ข้อความဖြစ်နိုင်ပါသည်။ သတိပြုပါ။",
+                "safe": "လှည့်ဖျက်သံသယသောစကားလုံးများမတွေ့ပါ။ သတိပြုပါ။"
+            }
+        }
+
+        msg = messages.get(language, messages["en"])
+
         lower_msg = message.lower()
         if any(keyword in lower_msg for keyword in self.scam_keywords):
-            return "This message might be a scam. Be cautious!"
-        return "No common scam phrases found. Be cautious anyway!"
+            return msg["scam"]
+        return msg["safe"]

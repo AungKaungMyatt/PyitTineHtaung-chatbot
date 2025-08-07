@@ -1,6 +1,14 @@
 {
-  "online_banking": "Avoid using public Wi-Fi for banking. Use secure connections and strong passwords.",
-  "transaction_monitoring": "Regularly review your account activity and report any suspicious transactions immediately.",
-  "mobile_banking": "Download apps only from official app stores and keep your mobile software up-to-date.",
-  "account_monitoring": "Check your login history and alert settings regularly."
+  "en": {
+    "online_banking": "Avoid using public Wi-Fi for banking. Use secure connections and strong passwords.",
+    "transaction_monitoring": "Regularly review your account activity and report any suspicious transactions immediately.",
+    "mobile_banking": "Download apps only from official app stores and keep your mobile software up-to-date.",
+    "account_monitoring": "Check your login history and alert settings regularly."
+  },
+  "mm": {
+    "online_banking": "ဘဏ်လုပ်ငန်းများအတွက် public Wi-Fi မသုံးရ၊ လုံခြုံသောကွန်နက်ရှင်နှင့် စကားဝှက်ပြင်းပြသော အကောင့်ကို သုံးပါ။",
+    "transaction_monitoring": "အကောင့်လုပ်ငန်းစဉ်များကို မကြာခဏစစ်ဆေးပြီး အမျှင်ထိုး Transactions များကို ချက်ချင်းတုံ့ပြန်ပါ။",
+    "mobile_banking": "မိုဘိုင်းဘဏ်လုပ်ငန်းအပ်များကို တရားဝင် App Store များမှသာဒေါင်းပါ။ Software ကို update ထားပါ။",
+    "account_monitoring": "အကောင့် login မှတ်တမ်းများနှင့် အစိုးရေးပြုလုပ်မှုအသိပေးချက်များကို မကြာခဏစစ်ဆေးပါ။"
+  }
 }

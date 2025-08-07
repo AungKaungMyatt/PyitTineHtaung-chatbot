@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from difflib import get_close_matches
 import logging
 
@@ -9,21 +10,27 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 KEYWORDS_PATH = os.path.join(BASE_DIR, "../data/intent_keywords.json")
 
 with open(KEYWORDS_PATH, "r", encoding="utf-8") as f:
-    INTENT_KEYWORDS = json.load(f)
+    intent_keywords = json.load(f)
+
+def detect_language(text: str) -> str:
+    for char in text:
+        if '\u1000' <= char <= '\u109F':  # Myanmar Unicode range
+            return "mm"
+    return "en"
 
 def detect_intent(user_input: str) -> str:
     user_input = user_input.lower().strip()
-    
-    for intent, keywords in INTENT_KEYWORDS.items():
+    lang = detect_language(user_input)
+
+    for intent, keywords in intent_keywords.items():
         for keyword in keywords:
-            # Exact match or close similarity
-            if keyword in user_input:
-                return intent
-            matches = get_close_matches(user_input, keywords, cutoff=0.8)
-            if matches:
-                return intent
-            if keyword in user_input:
-                logging.info(f"Intent '{intent}' matched by keyword '{keyword}'")
-                return intent
-    
+            keyword = keyword.lower().strip()
+            if lang == "en":
+                pattern = r'\b' + re.escape(keyword) + r'\b'
+                if re.search(pattern, user_input):
+                    return intent
+            else:  # For Myanmar, use direct substring match
+                if keyword in user_input:
+                    return intent
+
     return "ai"
