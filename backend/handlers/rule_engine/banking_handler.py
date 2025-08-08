@@ -23,7 +23,7 @@ class BankingTipHandler:
 
         fallback = {
             "en": "I couldn't find a specific banking tip, but always stay secure while banking online!",
-            "mm": "တိကျတဲ့ဘဏ်လုပ်ငန်းဆိုင်ရာအကြံဉာဏ်မတွေ့ပါ။ သို့သော် အွန်လိုင်းဘဏ်လုပ်ငန်းများကို အသုံးပြုသောအခါ အမြဲတမ်းလုံခြုံမှုရှိစေရန် သတိထားပါ။"
+            "my": "တိကျတဲ့ဘဏ်လုပ်ငန်းဆိုင်ရာအကြံဉာဏ်မတွေ့ပါ။ သို့သော် အွန်လိုင်းဘဏ်လုပ်ငန်းများကို အသုံးပြုသောအခါ အမြဲတမ်းလုံခြုံမှုရှိစေရန် သတိထားပါ။"
         }
 
         return fallback.get(language, fallback["en"])

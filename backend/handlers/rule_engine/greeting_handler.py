@@ -6,7 +6,7 @@ class GreetingHandler:
                 "response": "Hello, this is PyitTineHtaung Cyber Security Bot. How can I assist you today?",
                 "keywords": ["hello", "hi", "hey", "greetings", "good morning", "good evening"]
             },
-            "mm": {
+            "my": {
                 "response": "မင်္ဂလာပါ။ ပစ်တိုင်းထောင် Cyber Security chatbot မှ ကြိုဆိုပါတယ်။",
                 "keywords": ["မင်္ဂလာပါ", "မင်္ဂလာ", "နေကောင်းလား"]
             }

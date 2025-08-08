@@ -1,22 +1,66 @@
 {
   "greeting": [
-    "hi", "hello", "hey", "good morning", "good evening",
-    "မင်္ဂလာပါ", "မင်္ဂလာနံနက်ခင်း", "ဟယ်လို", "ဟဲလို", "မင်္ဂလာညနေခင်း"
+    "hi", "hello", "hey", "good morning", "good afternoon", "good evening",
+    "hi there", "hello there",
+    "မင်္ဂလာပါ", "မင်္ဂလာနံနက်ခင်း", "မင်္ဂလာနေ့လယ်", "မင်္ဂလာညနေခင်း",
+    "ဟယ်လို", "ဟဲလို", "ဟေ့", "နေကောင်းလား"
   ],
+
   "password_check": [
-    "password", "strong password", "change password", "forgot password", 
-    "စကားဝှက်", "စကားဝှက်ပြောင်း", "စကားဝှက်မေ့", "လုံခြုံသော စကားဝှက်"
+    "password", "strong password",
+    "reset password", "reset my password", "forgot password", "recover password",
+    "change password", "update password", "password reset", "lost password",
+    "2fa", "two factor", "otp", "one time password",
+    "စကားဝှက်", "စကားဝှက်ပြောင်း", "စကားဝှက်ပြောင်းချင်", "စကားဝှက်ပြန်ထား",
+    "စကားဝှက်မေ့", "စကားဝှက် မေ့သွား", "စကားဝှက်ပြန်ရ", "စကားဝှက်ပြန်လည်ပြင်",
+    "လုံခြုံသော စကားဝှက်", "စကားဝှက် အင်မတန် လုံခြုံ", "otp", "ဝင်ရောက် ကုဒ်"
   ],
+
   "banking_tip": [
-    "bank", "banking", "online banking", "banking safety", "how to keep my bank secure",
-    "ဘဏ်", "ဘဏ်လုပ်ငန်း", "ဘဏ်လုံခြုံမှု", "ဘဏ်အကောင့်", "ဘဏ်အကောင့်ကို ဘယ်လို လုံခြုံအောင် ထိန်းသိမ်းမလဲ"
+    "online banking", "mobile banking", "banking safety", "keep my account secure",
+    "phishing sms", "phishing message", "smishing",                
+    "protect my bank account", "secure my account", "safe banking tips",
+    "account security tips", "how to protect account",
+    "ဘဏ် အွန်လိုင်း", "မိုဘိုင်း ဘဏ်", "ဘဏ် လုံခြုံမှု", "ဘဏ်အကောင့် လုံခြုံရေး",
+    "ဘဏ်အကောင့်ကို ဘယ်လို လုံခြုံအောင် ထိန်းသိမ်းမလဲ", "အကောင့် လုံခြုံရေး အကြံပေးချက်",
+    "အကောင့်ကာကွယ်"
   ],
+
   "scam_check": [
-    "scam", "phishing", "fraud", "click this link", "lottery message", "is this a scam", "sms scam",
-    "လှည့်စားမှု", "လှည့်စားရေး", "လိမ်လည်မှု", "link", "လင့်ခ်", "ဘယ်လိုလှည့်စားမှုလဲ", "လိမ်လည်ချက်"
+    "scam", "is this a scam", "phishing", "smishing", "vishing",
+    "fraud", "fake link", "suspicious link", "click this link", "lottery message",
+    "prize message", "giveaway message", "investment scam", "romance scam",
+    "sms scam", "email scam", "call scam", "phone scam",
+    "report scam", "report phishing", "how to report scam",
+    "လှည့်စားမှု", "လှည့်စားရေး", "လိမ်လည်မှု", "လိမ်လည် စာတို", "လိမ်လည် အီးမေးလ်",
+    "ဓားပြစာ", "လင့်ခ်", "လင့်ခ်", "လင့်ခ် ဖွင့်", "လိမ်လည် လင့်ခ်",
+    "လက်မှတ်မဲ နံပါတ်", "အဖိုးကြီး ဆု", "အလုပ်အကိုင် လိမ်လည်", "ငွေလှုံ့ဆော်",
+    "လိမ်လည်ချက်", "လိမ်လည် စာ", "လိမ်လည် ဖုန်းခေါ်"
   ],
+
   "tip": [
-    "cyber tip", "safety advice", "internet safety", "tips to protect account",
-    "လုံခြုံရေးအကြံပေးချက်", "အကြံပြုချက်", "အကောင့်ကိုဘယ်လိုကာကွယ်မလဲ", "အကြံဉာဏ်"
+    "tip", "tips", "advice", "recommendation", "best practice",
+    "cyber tip", "security tip", "safety advice", "internet safety",
+    "tips to protect account", "best practices", "privacy tips",
+    "လုံခြုံရေး အကြံပေးချက်", "အွန်လိုင်း လုံခြုံရေး",
+    "အကောင့်ကာကွယ် နည်းလမ်း", "အကြံပြုချက်", "အကြံဉာဏ်", "ကာကွယ် နည်းလမ်း"
+  ],
+
+  "card_freeze": [
+    "freeze my card", "block my card", "lock my card", "card stolen", 
+    "lost my card", "debit card lost", "credit card lost",
+    "cancel my card", "disable card",
+    "ကဒ်ကို ပိတ်ပေးပါ", "ကဒ်ကို လော့ခ်လုပ်ပေးပါ", "ကဒ်ကို ဘလော့ခ်လုပ်ပေးပါ",
+    "ကဒ် ရပ်ဆိုင်းပေးပါ", "ကဒ် အလုပ်မလုပ်အောင် ပြုလုပ်ပေးပါ", "ကဒ် ပိတ်မယ်",
+    "ကဒ် ပယ်ဖျက်ပေးပါ", "ကဒ် ပျောက်သွားပြီ", "ကဒ် ပျောက်တယ်", "ကဒ် ခိုးခံရပါတယ်",
+    "ဒက်ဘစ်ကဒ် ပျောက်တယ်", "ကရက်ဒစ်ကဒ် ပျောက်တယ်"
+  ],
+  "branch_hours": [
+    "branch hours", "open hours", "opening hours", "what time do you open",
+    "sunday hours", "weekend hours", "bank hours", 
+    "ဘဏ်ခွဲ ဖွင့်ချိန်", "ဘဏ်ခွဲ ဖွင့်ပိတ် အချိန်", "ဘဏ်အချိန်", "ရုံးချိန်",
+    "ဘယ်ချိန် ဖွင့်သလဲ", "ဘယ်ချိန် ပိတ်သလဲ", "မနက် ဘယ်ချိန် ဖွင့်တယ်",
+    "ည ဘယ်ချိန် ပိတ်တယ်", "တနင်္ဂနွေ ဖွင့်လား", "စနေ တနင်္ဂနွေ အချိန်",
+    "ပိတ်ရက်တွေမှာ ဖွင့်လား", "ဒီဘဏ်ခွဲ ဖွင့်ချိန် ဘာလဲ"
   ]
 }

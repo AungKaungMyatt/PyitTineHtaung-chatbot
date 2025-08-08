@@ -1,0 +1,7 @@
+{"text":"Hi","expected_intent":"greeting"}
+{"text":"hello there","expected_intent":"greeting"}
+{"text":"How do I reset my password?","expected_intent":"password_check"}
+{"text":"What should I do if I get a phishing SMS?","expected_intent":"banking_tip"}
+{"text":"Give me a tip about strong passwords","expected_intent":"tip"}
+{"text":"Freeze my card now","expected_intent":"card_freeze"}
+{"text":"What are Sunday branch hours?","expected_intent":"branch_hours"}

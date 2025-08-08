@@ -1,0 +1,6 @@
+{"text":"မင်္ဂလာပါ","expected_intent":"greeting"}
+{"text":"စကားဝှက် မေ့သွားရင် ဘာလုပ်ရမလဲ","expected_intent":"password_check"}
+{"text":"လိမ်လည် စာတိုရလာတဲ့အခါ ဘာလုပ်ရမလဲ","expected_intent":"banking_tip"}
+{"text":"လုံခြုံစကားဝှက် အကြံပေးပါ","expected_intent":"tip"}
+{"text":"ကတ်အခု ပိတ်ချင်တယ်","expected_intent":"card_freeze"}
+{"text":"တနင်္ဂနွေနေ့ ဗရန့် ဘယ်အချိန်တွေ ဖွင့်လဲ","expected_intent":"branch_hours"}
