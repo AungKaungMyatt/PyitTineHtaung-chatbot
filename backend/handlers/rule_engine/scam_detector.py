@@ -10,7 +10,7 @@ class ScamDetector:
                 "scam": "This message might be a scam. Be cautious!",
                 "safe": "No common scam phrases found. Be cautious anyway!"
             },
-            "mm": {
+            "my": {
                 "scam": "ဤမက်ဆေ့ချ်သည် အလိမ်အညာဖြစ်နိုင်ပါသည်။ သတိပြုပါ။",
                 "safe": "သံသယဖြစ်ဖွယ်စကားလုံးများမတွေ့ပါ။ သတိပြုပါ။"
             }

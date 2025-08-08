@@ -23,7 +23,7 @@ class TipHandler:
                 return f"{tip_data.get(language, tip_data.get('en'))} (Topic: {match})"
             else:
                 return f"{tip_data} (Topic: {match})"
-        if language == "mm":
+        if language == "my":
             return "အကြံပြုချက်တစ်ခုမှ မတွေ့ရှိနိုင်ပါ။ သတိထားပြီး လုံခြုံမှုရှိအောင်နေပါ။"
         return "I couldn't find a specific tip, but always stay cautious and secure!"
 

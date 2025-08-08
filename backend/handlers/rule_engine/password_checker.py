@@ -9,7 +9,7 @@ class PasswordChecker:
                 "no_special": "Add a special character (!@#$%^&*)",
                 "strong": "Strong password!"
             },
-            "mm": {
+            "my": {
                 "too_short": "သင့်စကားဝှက်မှာ စာလုံး ၈ လုံးအထက်ရှိရန်လိုအပ်ပါသည်။",
                 "no_upper": "အကြီးစာလုံးတစ်လုံးထည့်ပါ။",
                 "no_lower": "အငယ်စာလုံးတစ်လုံးထည့်ပါ။",
