@@ -2,6 +2,7 @@ import json
 import os
 import re
 from difflib import get_close_matches
+import unicodedata
 import logging
 from utils.sanitizer import detect_language
 
@@ -15,10 +16,28 @@ with open(KEYWORDS_PATH, "r", encoding="utf-8") as f:
 
 # Helper: normalize Myanmar text
 def normalize_burmese_text(text: str) -> str:
-    """Remove zero-width spaces and normalize spacing for Myanmar text."""
-    text = text.replace("\u200b", "").replace("\u200c", "").replace("\u200d", "")
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+    # Normalize Unicode, remove zero-widths, collapse spaces
+    t = unicodedata.normalize("NFC", text or "")
+    t = t.replace("\u200b", "").replace("\u200c", "").replace("\u200d", "")
+    t = re.sub(r"\s+", " ", t)
+    return t.strip()
+
+MY_RANGE = r"\u1000-\u109F\uAA60-\uAA7F\uA9E0-\uA9FF"  # Myanmar + extensions
+
+def my_keyword_to_pattern(kw: str) -> str:
+    """
+    Turn a Myanmar keyword into a regex that allows optional spaces between Myanmar chars.
+    Non-Myanmar chars stay literal.
+    Example: 'ဘဏ် အချိန်' -> 'ဘ\s*ဏ\s*်\s* \s*အ\s*ချ\s*ိ\s*န်'
+    """
+    pat = []
+    for ch in kw:
+        if re.match(f"[{MY_RANGE}]", ch):
+            pat.append(re.escape(ch) + r"\s*")
+        else:
+            # keep ASCII and punctuation as-is
+            pat.append(re.escape(ch))
+    return "".join(pat)
 
 def detect_intent(user_input: str, lang: str | None = None):
     text = (user_input or "").strip()
@@ -42,7 +61,8 @@ def detect_intent(user_input: str, lang: str | None = None):
                     hit_list.append(kw)
             else:
                 norm_kw = normalize_burmese_text(kw)
-                if norm_kw in text_lc:
+                pattern = my_keyword_to_pattern(norm_kw)
+                if re.search(pattern, text_lc):
                     score += 1.0
                     hit_list.append(norm_kw)
         scores[intent] = score

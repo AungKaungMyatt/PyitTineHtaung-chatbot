@@ -1,8 +1,0 @@
-file,lang,text,expected_intent,pred_intent,intent_score,latency_ms,response_preview
-queries.en.jsonl,en,Hi,greeting,greeting,0.5,8,"Hello, this is PyitTineHtaung Cyber Security Bot. How can I assist you today?"
-queries.en.jsonl,en,hello there,greeting,greeting,0.6,1,"Hello, this is PyitTineHtaung Cyber Security Bot. How can I assist you today?"
-queries.en.jsonl,en,How do I reset my password?,password_check,password_check,0.6,0,Add at least one number.
-queries.en.jsonl,en,What should I do if I get a phishing SMS?,banking_tip,banking_tip,0.65,0,"I couldn't find a specific banking tip, but always stay secure while banking online!"
-queries.en.jsonl,en,Give me a tip about strong passwords,tip,tip,0.65,2,"Use a combination of letters, numbers, and symbols for strong passwords. (Topic: strong password)"
-queries.en.jsonl,en,Freeze my card now,card_freeze,card_freeze,0.5,1,"If your card is lost or you suspect fraud, do this now: 1) Call the bank hotline on the back of your card to request an "
-queries.en.jsonl,en,What are Sunday branch hours?,branch_hours,branch_hours,0.5,1,"Branch hours vary by location. Tell me the branch name or city and I can help, or use the bank’s official branch locator"
