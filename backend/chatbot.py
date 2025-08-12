@@ -3,7 +3,6 @@ from handlers.rule_engine.tip_handler import TipHandler
 from handlers.rule_engine.scam_detector import ScamDetector
 from handlers.rule_engine.banking_handler import BankingTipHandler
 from handlers.rule_engine.greeting_handler import GreetingHandler
-from handlers.rule_engine.card_handler import CardHandler
 from handlers.rule_engine.banking_info import BankingInfoHandler
 from utils.sanitizer import detect_language  # Use the single source of truth
 
@@ -22,7 +21,6 @@ class ChatBot:
         self.scam_detector = ScamDetector()
         self.banking_handler = BankingTipHandler()
         self.greeting_handler = GreetingHandler()
-        self.card_handler = CardHandler()
         self.banking_info = BankingInfoHandler()
         # self.ai_responder = LLMResponder()
 
@@ -53,9 +51,6 @@ class ChatBot:
 
         elif intent == "greeting":
             return self.greeting_handler.respond(user_input, language)
-        
-        elif intent == "card_freeze":
-            return self.card_handler.freeze_card(user_input, language)
         
         elif intent == "branch_hours":
             return self.banking_info.branch_hours(user_input, language)

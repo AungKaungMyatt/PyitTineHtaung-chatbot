@@ -46,16 +46,6 @@
     "အကောင့်ကာကွယ် နည်းလမ်း", "အကြံပြုချက်", "အကြံဉာဏ်", "ကာကွယ် နည်းလမ်း"
   ],
 
-  "card_freeze": [
-    "freeze my card", "block my card", "lock my card", "card stolen", 
-    "lost my card", "debit card lost", "credit card lost",
-    "cancel my card", "disable card",
-    "ကဒ်ကို ပိတ်ပေးပါ", "ကဒ်ကို လော့ခ်လုပ်ပေးပါ", "ကဒ်ကို ဘလော့ခ်လုပ်ပေးပါ",
-    "ကဒ် ရပ်ဆိုင်းပေးပါ", "ကဒ် အလုပ်မလုပ်အောင် ပြုလုပ်ပေးပါ", "ကဒ် ပိတ်မယ်",
-    "ကဒ် ပယ်ဖျက်ပေးပါ", "ကဒ် ပျောက်သွားပြီ", "ကဒ် ပျောက်တယ်", "ကဒ် ခိုးခံရပါတယ်",
-    "ဒက်ဘစ်ကဒ် ပျောက်တယ်", "ကရက်ဒစ်ကဒ် ပျောက်တယ်"
-  ],
-
   "branch_hours": [
     "branch hours", "open hours", "opening hours", "what time do you open",
     "sunday hours", "weekend hours", "bank hours",
